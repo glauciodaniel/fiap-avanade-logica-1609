@@ -1,7 +1,7 @@
 class Pessoa{
     //atributos ou propriedades
-    nome: string;
-    idade: number;
+    public nome: string;
+    public idade: number;
 
     //métodos (Função metida dentro de uma classe)
     constructor(parametroNome: string, parametroIdade:number ){
